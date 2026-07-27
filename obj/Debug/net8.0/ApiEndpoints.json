@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "WebApplication5.Controllers.ShipmentsController",
+    "Method": "GetAllShipments",
+    "RelativePath": "api/Shipments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication5.Controllers.ShipmentsController",
+    "Method": "CreateShipment",
+    "RelativePath": "api/Shipments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shipment",
+        "Type": "WebApplication5.model.Shipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication5.Controllers.ShipmentsController",
+    "Method": "GetShipmentById",
+    "RelativePath": "api/Shipments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication5.Controllers.ShipmentsController",
+    "Method": "DeleteShipment",
+    "RelativePath": "api/Shipments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication5.Controllers.ShipmentsController",
+    "Method": "UpdateShipmentStatus",
+    "RelativePath": "api/Shipments/{id}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "WebApplication5.DTOs.UpdateShipmentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication5.Controllers.ShipmentsController",
+    "Method": "getShipmentCount",
+    "RelativePath": "api/Shipments/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication5.Controllers.ShipmentsController",
+    "Method": "GetLatestShipment",
+    "RelativePath": "api/Shipments/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
